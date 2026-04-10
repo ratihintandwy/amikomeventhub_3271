@@ -438,7 +438,7 @@
             <div class="nav-user">
                 <div class="av">MH</div>
                 <div>
-                    <p style="font-size:12px;font-weight:600;color:var(--text);line-height:1.2;">Mahasiswa</p>
+                    <p style="font-size:12px;font-weight:600;color:var(--text);line-height:1.2;">Ratih Intan Dwyatmasari</p>
                     <p style="font-size:10px;color:var(--muted);">24.12.3271</p>
                 </div>
             </div>
@@ -477,7 +477,7 @@
 
         <div class="profile-grid fade2" style="animation-delay:0.15s;">
             <div class="av-card">
-                <div class="av-lg">MH</div>
+                <div class="av-lg">RID</div>
                 <p class="av-name">Ratih Intan Dwyatmasari</p>
                 <p class="av-nim">24.12.3271</p>
                 <div class="av-divider"></div>
