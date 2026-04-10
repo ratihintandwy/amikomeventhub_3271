@@ -436,7 +436,7 @@
                 <a href="/kontak" class="nl">Kontak</a>
             </div>
             <div class="nav-user">
-                <div class="av">MH</div>
+                <div class="av">RID</div>
                 <div>
                     <p style="font-size:12px;font-weight:600;color:var(--text);line-height:1.2;">Ratih Intan Dwyatmasari</p>
                     <p style="font-size:10px;color:var(--muted);">24.12.3271</p>
