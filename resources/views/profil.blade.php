@@ -439,7 +439,7 @@
                 <div class="av">MH</div>
                 <div>
                     <p style="font-size:12px;font-weight:600;color:var(--text);line-height:1.2;">Mahasiswa</p>
-                    <p style="font-size:10px;color:var(--muted);">XX.XX.XXXX</p>
+                    <p style="font-size:10px;color:var(--muted);">24.12.3271</p>
                 </div>
             </div>
         </div>
@@ -478,8 +478,8 @@
         <div class="profile-grid fade2" style="animation-delay:0.15s;">
             <div class="av-card">
                 <div class="av-lg">MH</div>
-                <p class="av-name">Nama Mahasiswa</p>
-                <p class="av-nim">XX.XX.XXXX</p>
+                <p class="av-name">Ratih Intan Dwyatmasari</p>
+                <p class="av-nim">24.12.3271</p>
                 <div class="av-divider"></div>
                 <span class="badge-aktif">● Aktif</span>
                 <div class="av-info-mini">
@@ -493,8 +493,8 @@
                 <div class="card-head"><span class="card-head-dot"></span>
                     <p>Informasi Akademik</p>
                 </div>
-                <div class="d-row"><span class="d-key">Nama Lengkap</span><span class="d-val">Nama Mahasiswa</span></div>
-                <div class="d-row"><span class="d-key">NIM</span><span class="d-val mono">XX.XX.XXXX</span></div>
+                <div class="d-row"><span class="d-key">Nama Lengkap</span><span class="d-val">Ratih Intan Dwyatmasari</span></div>
+                <div class="d-row"><span class="d-key">NIM</span><span class="d-val mono">24.12.3271</span></div>
                 <div class="d-row"><span class="d-key">Program Studi</span><span class="d-val">S1 Sistem Informasi</span></div>
                 <div class="d-row"><span class="d-key">Mata Kuliah</span><span class="d-val">Digital Bisnis <span style="color:var(--subtle);font-size:11px;font-weight:400;">SI148</span></span></div>
                 <div class="d-row"><span class="d-key">Institusi</span><span class="d-val">Universitas AMIKOM Yogyakarta</span></div>
