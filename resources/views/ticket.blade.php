@@ -10,7 +10,7 @@
 @endsection
 
 @section('content')
-<div class="min-h-screen flex items-center justify-center p-6">
+<div class="min-h-screen flex items-center justify-center p-6 bg-indigo-600">
     <div class="max-w-md w-full">
         <!-- Success Banner -->
         <div class="text-center mb-8 text-white">
