@@ -23,6 +23,8 @@ Tugas 2
 [https://amikomeventhub-3271-main-i4x7oz.free.laravel.cloud/admin](https://amikomeventhub-3271-main-i4x7oz.free.laravel.cloud/admin)
 - Halaman Event :
 [https://amikomeventhub-3271-main-i4x7oz.free.laravel.cloud/admin/events](https://amikomeventhub-3271-main-i4x7oz.free.laravel.cloud/admin/events)
+- Halaman Kategori :
+[https://amikomeventhub-3271-main-i4x7oz.free.laravel.cloud/admin/categories](https://amikomeventhub-3271-main-i4x7oz.free.laravel.cloud/admin/categories)
 - Halaman Transaksi :
 [https://amikomeventhub-3271-main-i4x7oz.free.laravel.cloud/admin/transactions](https://amikomeventhub-3271-main-i4x7oz.free.laravel.cloud/admin/transactions)
 - Halaman Beranda :
