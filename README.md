@@ -2,9 +2,9 @@
 [https://amikomeventhub-3271-main-i4x7oz.free.laravel.cloud/](https://amikomeventhub-3271-main-i4x7oz.free.laravel.cloud/)
 
 Identitas Mahasiswa :
-Nama    : Ratih Intan Dwyatmasari
-NIM     : 24.12.3271
-Kelas   : Sistem Informasi 04
+- Nama    : Ratih Intan Dwyatmasari
+- NIM     : 24.12.3271
+- Kelas   : Sistem Informasi 04
 
 # Hasil Pengerjaan
 
