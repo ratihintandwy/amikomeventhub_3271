@@ -1,4 +1,4 @@
-# DIGITAL BUSINESS
+# DIGITAL BUSINESS 4
 [https://amikomeventhub-3271-main-i4x7oz.free.laravel.cloud/](https://amikomeventhub-3271-main-i4x7oz.free.laravel.cloud/)
 
 Identitas Mahasiswa :
@@ -6,7 +6,7 @@ Identitas Mahasiswa :
 - NIM     : 24.12.3271
 - Kelas   : Sistem Informasi 04
 
-# Hasil Pengerjaan
+# Hasil Pengerjaan Tugas
 
 Tugas 1
 - Halaman Profil :
@@ -20,8 +20,14 @@ Tugas 1
 
 Tugas 2
 - Halaman Dashboard :
+[https://amikomeventhub-3271-main-i4x7oz.free.laravel.cloud/admin](https://amikomeventhub-3271-main-i4x7oz.free.laravel.cloud/admin)
 - Halaman Event :
+[https://amikomeventhub-3271-main-i4x7oz.free.laravel.cloud/admin/events](https://amikomeventhub-3271-main-i4x7oz.free.laravel.cloud/admin/events)
 - Halaman Transaksi :
+[https://amikomeventhub-3271-main-i4x7oz.free.laravel.cloud/#transactions](https://amikomeventhub-3271-main-i4x7oz.free.laravel.cloud/#transactions)
 - Halaman Beranda :
+[https://amikomeventhub-3271-main-i4x7oz.free.laravel.cloud/](https://amikomeventhub-3271-main-i4x7oz.free.laravel.cloud/)
 - Halaman Detail Event :
+[https://amikomeventhub-3271-main-i4x7oz.free.laravel.cloud/event-detail.html](https://amikomeventhub-3271-main-i4x7oz.free.laravel.cloud/event-detail.html)
 - Halaman Checkout :
+[https://amikomeventhub-3271-main-i4x7oz.free.laravel.cloud/checkout.html](https://amikomeventhub-3271-main-i4x7oz.free.laravel.cloud/checkout.html)
