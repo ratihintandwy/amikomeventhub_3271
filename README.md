@@ -24,7 +24,7 @@ Tugas 2
 - Halaman Event :
 [https://amikomeventhub-3271-main-i4x7oz.free.laravel.cloud/admin/events](https://amikomeventhub-3271-main-i4x7oz.free.laravel.cloud/admin/events)
 - Halaman Transaksi :
-[https://amikomeventhub-3271-main-i4x7oz.free.laravel.cloud/#transactions](https://amikomeventhub-3271-main-i4x7oz.free.laravel.cloud/transactions)
+[https://amikomeventhub-3271-main-i4x7oz.free.laravel.cloud/transactions](https://amikomeventhub-3271-main-i4x7oz.free.laravel.cloud/transactions)
 - Halaman Beranda :
 [https://amikomeventhub-3271-main-i4x7oz.free.laravel.cloud/](https://amikomeventhub-3271-main-i4x7oz.free.laravel.cloud/)
 - Halaman Detail Event :
