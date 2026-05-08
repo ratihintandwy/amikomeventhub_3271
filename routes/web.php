@@ -7,6 +7,7 @@ use App\Http\Controllers\Admin\DashboardController;
 use App\Http\Controllers\Admin\EventController as AdminEventController;
 use App\Http\Controllers\Admin\TransactionController;
 use App\Http\Controllers\Admin\CategoryController;
+use App\Http\Controllers\Admin\EventController as EventAdminController;
 
 // =============================================
 // USER AREA
@@ -32,4 +33,5 @@ Route::prefix('admin')->name('admin.')->group(function () {
     Route::get('/events', [AdminEventController::class, 'index'])->name('events.index');
     Route::get('/transactions', [TransactionController::class, 'index'])->name('transactions.index');
     Route::get('/categories', [CategoryController::class, 'index'])->name('categories.index');
+    Route::resource('events', EventAdminController::class);
 });
