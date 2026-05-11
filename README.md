@@ -38,4 +38,4 @@ CRUD Tabel event
 - Halaman Admin Dashboard :
 [https://amikomeventhub-3320-main-se5rrk.free.laravel.cloud/admin](https://amikomeventhub-3271-main-i4x7oz.free.laravel.cloud/admin)
 - Halaman Admin Event :
-[https://amikomeventhub-3271-main-i4x7oz.free.laravel.cloud/admin/events)
+[https://amikomeventhub-3271-main-i4x7oz.free.laravel.cloud/admin/events](https://amikomeventhub-3271-main-i4x7oz.free.laravel.cloud/admin/events)
