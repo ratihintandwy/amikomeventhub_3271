@@ -2,45 +2,36 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Partner;
+use App\Models\Category;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
-    /**
-     * Menampilkan halaman utama (beranda)
-     */
+    // Soal 4: Ambil data Partner & Category untuk public view
     public function index()
     {
-        return view('welcome');
+        $partners   = Partner::all();
+        $categories = Category::all();
+
+        return view('welcome', compact('partners', 'categories'));
     }
 
-    /**
-     * Menampilkan halaman profil praktikan
-     */
     public function profil()
     {
         return view('profil');
     }
 
-    /**
-     * Menampilkan halaman katalog event
-     */
     public function katalog()
     {
         return view('katalog');
     }
 
-    /**
-     * Menampilkan halaman bantuan / FAQ
-     */
     public function bantuan()
     {
         return view('bantuan');
     }
 
-    /**
-     * Menampilkan halaman kontak
-     */
     public function kontak()
     {
         return view('contact');
