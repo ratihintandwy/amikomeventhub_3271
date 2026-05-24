@@ -35,4 +35,4 @@ Tugas 2
 [https://amikomeventhub-3271-main-i4x7oz.free.laravel.cloud/checkout.html](https://amikomeventhub-3271-main-i4x7oz.free.laravel.cloud/checkout.html)
 
 UTS
-[https://github.com/ratihintandwy/amikomeventhub_3271/tree/ujian_tengah_semester-24.12.3271](https://github.com/ratihintandwy/amikomeventhub_3271/tree/ujian_tengah_semester-24.12.3271)
+[https://github.com/ratihintandwy/amikomeventhub_3271/tree/ujian-tengah-semester-24.12.3271](https://github.com/ratihintandwy/amikomeventhub_3271/tree/ujian-tengah-semester-24.12.3271)
