@@ -24,7 +24,7 @@ class CategoryController extends Controller
     }
 
     // 3. Kirim data ke view index kategori
-    return view('admin.category.index', compact('categories'));
+    return view('admin.categories.index', compact('categories'));
     }
 
     // CREATE
