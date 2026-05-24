@@ -2,45 +2,37 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Partner;
+use App\Models\Category;
+use App\Models\Event;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
-    /**
-     * Menampilkan halaman utama (beranda)
-     */
     public function index()
     {
-        return view('welcome');
+        $events     = Event::with('category')->latest()->get();
+        $partners   = Partner::all();
+        $categories = Category::all();
+
+        return view('welcome', compact('events', 'partners', 'categories'));
     }
 
-    /**
-     * Menampilkan halaman profil praktikan
-     */
     public function profil()
     {
         return view('profil');
     }
 
-    /**
-     * Menampilkan halaman katalog event
-     */
     public function katalog()
     {
         return view('katalog');
     }
 
-    /**
-     * Menampilkan halaman bantuan / FAQ
-     */
     public function bantuan()
     {
         return view('bantuan');
     }
 
-    /**
-     * Menampilkan halaman kontak
-     */
     public function kontak()
     {
         return view('contact');
