@@ -34,5 +34,11 @@ Tugas 2
 - Halaman Checkout :
 [https://amikomeventhub-3271-main-i4x7oz.free.laravel.cloud/checkout.html](https://amikomeventhub-3271-main-i4x7oz.free.laravel.cloud/checkout.html)
 
+CRUD Tabel event
+- Halaman Admin Dashboard :
+[https://amikomeventhub-3320-main-se5rrk.free.laravel.cloud/admin](https://amikomeventhub-3271-main-i4x7oz.free.laravel.cloud/admin)
+- Halaman Admin Event :
+[https://amikomeventhub-3271-main-i4x7oz.free.laravel.cloud/admin/events](https://amikomeventhub-3271-main-i4x7oz.free.laravel.cloud/admin/events)
+
 UTS
 [https://github.com/ratihintandwy/amikomeventhub_3271/tree/ujian-tengah-semester-24.12.3271](https://github.com/ratihintandwy/amikomeventhub_3271/tree/ujian-tengah-semester-24.12.3271)
