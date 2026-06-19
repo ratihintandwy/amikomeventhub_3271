@@ -65,18 +65,51 @@
             </a>
         </nav>
 
-        <div class="pt-4 border-t border-indigo-800">
-            <a href="{{ route('home') }}" class="flex items-center gap-3 px-4 py-3 hover:bg-white/10 rounded-xl font-bold transition text-sm text-indigo-300">
+        <div class="pt-4 border-t border-indigo-800 space-y-1">
+            {{-- Lihat Halaman Publik --}}
+            <a href="{{ route('home') }}"
+                class="flex items-center gap-3 px-4 py-3 hover:bg-white/10 rounded-xl font-bold transition text-sm text-indigo-300">
                 <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                 </svg>
                 Lihat Halaman Publik
             </a>
+
+            {{-- Tombol Keluar (Logout) --}}
+            <form action="{{ route('admin.logout') }}" method="POST">
+                @csrf
+                <button type="submit"
+                    class="w-full flex items-center gap-3 px-4 py-3 text-indigo-300
+                           hover:bg-rose-600/20 hover:text-rose-300 rounded-xl font-bold
+                           transition text-sm text-left">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1" />
+                    </svg>
+                    Keluar
+                </button>
+            </form>
         </div>
     </aside>
 
     <!-- Main Content -->
     <main class="flex-1 p-10 overflow-y-auto">
+        {{-- Header dengan nama user --}}
+        <div class="flex justify-end items-center mb-6">
+            @auth
+                <div class="flex items-center gap-3 bg-white rounded-2xl px-4 py-2 shadow-sm border border-slate-100">
+                    <div class="w-8 h-8 bg-indigo-600 rounded-xl flex items-center justify-center text-white text-xs font-bold">
+                        {{ strtoupper(substr(Auth::user()->name, 0, 2)) }}
+                    </div>
+                    <div>
+                        <p class="text-sm font-bold text-slate-800">{{ Auth::user()->name }}</p>
+                        <p class="text-xs text-indigo-500 font-semibold capitalize">{{ Auth::user()->role }}</p>
+                    </div>
+                </div>
+            @endauth
+        </div>
+
         @yield('content')
     </main>
 
