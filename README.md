@@ -42,3 +42,6 @@ CRUD Tabel event
 
 UTS
 [https://github.com/ratihintandwy/amikomeventhub_3271/tree/ujian-tengah-semester-24.12.3271](https://github.com/ratihintandwy/amikomeventhub_3271/tree/ujian-tengah-semester-24.12.3271)
+
+infinityfree
+http://amikomeventhub-3271.free.je/
